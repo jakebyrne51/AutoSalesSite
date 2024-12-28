@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from '/Users/jakebyrne/carShop/frontend/src/Components/NavBar/Navbar.jsx';
+import Navbar from '../NavBar/Navbar';
 import './ApplyOnline.css';
 
 const ApplyOnline = () => {

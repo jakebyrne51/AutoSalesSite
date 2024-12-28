@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '/Users/jakebyrne/carShop/frontend/src/Components/NavBar/Navbar.jsx';
-import LoanCalc from '/Users/jakebyrne/carShop/frontend/src/Components/Loan Calculator/LoanCalc.jsx';
+import Navbar from '../Components/NavBar/Navbar.jsx';
+import LoanCalc from '../Components/Loan Calculator/LoanCalc.jsx';
 
 const LoanCalculatorPage = () => {
     return (

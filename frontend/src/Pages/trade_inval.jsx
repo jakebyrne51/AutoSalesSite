@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '/Users/jakebyrne/carShop/frontend/src/Components/NavBar/Navbar.jsx';
-import TradeInVal from '/Users/jakebyrne/carShop/frontend/src/Components/TradeInForm/tradeinval.jsx';
-import '/Users/jakebyrne/carShop/frontend/src/Components/TradeInForm/tradeinval.css';
+import Navbar from '../Components/NavBar/Navbar.jsx';
+import TradeInForm from '../Components/TradeInForm/tradeinval.jsx';
+import '../Components/TradeInForm/tradeinval.css';
 
-const TradeInValPage = () => {
+const TradeInValue = () => {
     return (
-        <div className="tradein-page-container">
+        <div>
             <Navbar />
-            <TradeInVal />
+            <TradeInForm />
         </div>
     );
 };
 
-export default TradeInValPage;
+export default TradeInValue;

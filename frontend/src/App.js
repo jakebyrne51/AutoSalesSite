@@ -1,14 +1,14 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Welcome from "/Users/jakebyrne/carShop/frontend/src/Pages/welcome.jsx";
-import About from "/Users/jakebyrne/carShop/frontend/src/Pages/aboutus.jsx";
-import ApplyOnline from "/Users/jakebyrne/carShop/frontend/src/Pages/apply_online.jsx";
-import Contact from "/Users/jakebyrne/carShop/frontend/src/Pages/contact.jsx";
-import Inventory from "/Users/jakebyrne/carShop/frontend/src/Pages/inventory.jsx";
-import LoanCalculator from "/Users/jakebyrne/carShop/frontend/src/Pages/loan_calculator.jsx";
-import PrivacyPolicy from "/Users/jakebyrne/carShop/frontend/src/Pages/privacypolicy.jsx";
-import TradeInValue from "/Users/jakebyrne/carShop/frontend/src/Pages/trade_inval.jsx";
-import Navbar from "./Components/NavBar/Navbar";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from "./Pages/aboutus.jsx";
+import ApplyOnline from "./Pages/apply_online.jsx";
+import Contact from "./Pages/contact.jsx";
+import Inventory from "./Pages/inventory.jsx";
+import LoanCalculator from "./Pages/loan_calculator.jsx";
+import PrivacyPolicy from "./Pages/privacypolicy.jsx";
+import TradeInValue from "./Pages/trade_inval.jsx";
+import Navbar from "./Components/NavBar/Navbar.jsx";
+import Welcome from "./Pages/welcome.jsx";
 
 const App = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "/Users/jakebyrne/carShop/frontend/src/Components/Assets/treenandbyrnequalitylogo.png";
+import logo from "../Assets/treenandbyrnequalitylogo.png";
 
 const Navbar = () => {
     const [openDropdown, setOpenDropdown] = useState(null);

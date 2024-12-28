@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '/Users/jakebyrne/carShop/frontend/src/Components/NavBar/Navbar.jsx';
-import FrontMessage from '/Users/jakebyrne/carShop/frontend/src/Components/FrontMessage/FrontMessage.jsx';
+import Navbar from '../Components/NavBar/Navbar.jsx';
+import FrontMessage from '../Components/FrontMessage/FrontMessage.jsx';
 
 const Welcome = () => {
     return (

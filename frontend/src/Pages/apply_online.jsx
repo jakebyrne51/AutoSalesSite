@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from "/Users/jakebyrne/carShop/frontend/src/Components/NavBar/Navbar.jsx";
-import OnlineForm from "/Users/jakebyrne/carShop/frontend/src/Components/ApplyOnlineForm/ApplyOnline.jsx";
+import Navbar from '../Components/NavBar/Navbar.jsx';
+import OnlineForm from '../Components/ApplyOnlineForm/ApplyOnline.jsx';
 
 
 const ApplyOnline = () => {

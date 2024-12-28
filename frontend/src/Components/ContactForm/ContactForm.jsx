@@ -3,7 +3,7 @@ import "./ContactForm.css";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-    const [responseMessage, setResponseMessage] = useState("");
+    const [responseMessage] = useState("");
 
     const handleChange = (e) => {
         const { name, value } = e.target;

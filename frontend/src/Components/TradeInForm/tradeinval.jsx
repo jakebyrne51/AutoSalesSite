@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "/Users/jakebyrne/carShop/frontend/src/Components/TradeInForm/tradeinval.css";
+import "/Users/jakebyrne/AutoSalesSite/carShop/AutoSalesSite/frontend/src/Components/TradeInForm/tradeinval.css";
 
 const TradeInVal = () => {
     const [formData, setFormData] = useState({
